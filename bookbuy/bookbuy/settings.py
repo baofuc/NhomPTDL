@@ -98,12 +98,12 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 FEEDS = {
-    'csvdatabookbuy.csv': {
+    'bookbuy/spiders/Storage_MongoDB/csvdatabookbuy.csv': {
         'format': 'csv',
         'encoding': 'utf-8',
         'overwrite': True,
     },
-    'jsondatabookbuy.json': {
+    'bookbuy/spiders/Storage_MongoDB/jsondatabookbuy.json': {
         'format': 'json',
         'encoding': 'utf-8',
         'indent': 4,
